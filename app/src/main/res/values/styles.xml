@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <!-- style for the action bar backgrounds -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <!-- Text -->
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Background for the search query section (e.g. EditText) -->
+        <item name="queryBackground">@drawable/search_view_background</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="HeadingTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_48</item>
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:gravity">start|left</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:layout_marginLeft">@dimen/margin_20</item>
+        <item name="android:layout_marginStart">@dimen/margin_20</item>
+        <item name="android:padding">@dimen/padding_10</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="BaseTextStyleRegularFont">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/colorBlackishGrey</item>
+    </style>
+
+
+    <style name="BodyTextStyle2" parent="HeadingTextStyle">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/colorBlackishGrey</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GenreTextStyle" parent="BaseTextStyleRegularFont">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/colorBlackishGrey</item>
+        <item name="android:layout_marginLeft">@dimen/margin_20</item>
+        <item name="android:layout_marginStart">@dimen/margin_20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GenreImageStyle">
+        <item name="android:layout_width">@dimen/logo_image_width_height</item>
+        <item name="android:layout_height">@dimen/logo_image_width_height</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10</item>
+        <item name="android:layout_marginStart">@dimen/margin_10</item>
+        <item name="contentDescription">@string/logo_image</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="BookTitleTextStyle" parent="BaseTextStyleRegularFont">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/colorBlackishGrey</item>
+        <item name="android:layout_marginTop">@dimen/margin_10</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="BookSubTitleTextStyle" parent="BookTitleTextStyle">
+        <item name="android:layout_marginTop">@dimen/margin_5</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BookImageStyle">
+        <item name="android:layout_width">@dimen/book_image_width</item>
+        <item name="android:layout_height">@dimen/book_image_height</item>
+        <item name="contentDescription">@string/logo_image</item>
+    </style>
+
+    <style name="NextButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="contentDescription">@string/logo_image</item>
+        <item name="android:padding">@dimen/padding_10</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+</resources>

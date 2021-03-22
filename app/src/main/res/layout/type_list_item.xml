@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/card_view_padding"
+    app:cardCornerRadius="@dimen/cardview_radius"
+    app:cardElevation="@dimen/cardview_elevation"
+    app:cardUseCompatPadding="true"
+    app:strokeColor="@color/colorWhite"
+    app:strokeWidth="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/genre_layout_height"
+        android:padding="@dimen/padding_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivGenreLogo"
+                style="@style/GenreImageStyle"
+                tools:src="@drawable/ic_philosophy" />
+
+            <TextView
+                android:id="@+id/tvGenreName"
+                style="@style/GenreTextStyle"
+                tools:text="@string/text_fiction" />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/buttonNext"
+            style="@style/NextButtonStyle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorTransparent"
+            android:src="@drawable/ic_next" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

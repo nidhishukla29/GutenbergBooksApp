@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GutenbergBooks</string>
+
+    // Genre Activity
+    <string name="title_gutenberg_project">GutenBerg Project</string>
+    <string name="sub_title_gutenberg_project">A social cataloging website that allows you to freely search its database of books, annotations, and reviews.</string>
+    <string name="text_fiction">Fiction</string>
+    <string name="text_drama">Drama</string>
+    <string name="text_humor">Humour</string>
+    <string name="text_politics">Politics</string>
+    <string name="text_philosophy">Philosophy</string>
+    <string name="text_history">History</string>
+    <string name="text_adventure">Adventure</string>
+    <string name="logo_image">genre logo image</string>
+    <string name="network_msg">Connectivity Issue</string>
+    <string name="extra_topic_name">Fiction</string>
+    <string name="alert_dialog_title">Choose an option to open link</string>
+    <string name="no_version_available_error_msg">No Viewable version available</string>
+    <string name="dialogTitle">Error!</string>
+    <string name="text_ok">OK</string>
+    <string name="error_no_data">No Data Found</string>
+    <string name="text_search">Search</string>
+
+    <string-array name="genre_array">
+        <item>@string/text_fiction</item>
+        <item>@string/text_drama</item>
+        <item>@string/text_humor</item>
+        <item>@string/text_politics</item>
+        <item>@string/text_philosophy</item>
+        <item>@string/text_history</item>
+        <item>@string/text_adventure</item>
+    </string-array>
+
+
+</resources>
